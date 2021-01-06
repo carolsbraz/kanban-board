@@ -8,16 +8,13 @@ cards.forEach(card => {
 })
 
 function dragstart() {
-
+    console.log("oi")
+    dropzones.forEach(dropzone => dropzone.classList.add('highlight'))
 }
 
-function drag() {
+function drag() {}
 
-}
-
-function dragend() {
-
-}
+function dragend() {}
 
 dropzones.forEach(dropzone => {
     dropzone.addEventListener('dragenter', dragenter)
@@ -26,18 +23,10 @@ dropzones.forEach(dropzone => {
     dropzone.addEventListener('drop', drop)
 })
 
-function dragenter() {
+function dragenter() {}
 
-}
+function dragover() {}
 
-function dragover() {
+function dragleave() {}
 
-}
-
-function dragleave() {
-
-}
-
-function drop() {
-
-}
+function drop() {}

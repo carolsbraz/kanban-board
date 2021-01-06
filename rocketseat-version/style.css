@@ -61,3 +61,7 @@ body {
 .status.red {
     background-color: red;
 }
+
+.highlight {
+    background-color: #FD951F08;
+}
