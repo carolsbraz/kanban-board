@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MyTodo</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@400;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="brand">
+            <img src="/img/to-do.png" alt="logo-todo" width="60px" height="60px" />
+            <h1 class="my-todo">MyTodo</h1>
+        </div>
+        <form class="input hidden" action="javascript:criarCard()">
+            <input type="text" name="txt-tarefa" id="txt-tarefa">
+            <input class="btn-criar" type="submit" value="Criar">
+            <a href="#" class="link-close">X</a>
+        </form>
+        <div class="itens">
+            <a href="#" class="btn-add">Adicionar item</a>
+        </div>
+    </nav>
+    <div class="board">
+        <div class="cards">
+            <div class="card">
+                <h3 class="title">Todo</h3>
+                <div class="dropzone initial">
+                    <div class="item" draggable="true">
+                        <div class="status"></div>
+                        <div class="text">Ler livro</div>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <h3 class="title">Doing</h3>
+                <div class="dropzone">
+                    <div class="item" draggable="true">
+                        <div class="status"></div>
+                        <div class="text">Estudar para prova</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card">
+                <h3 class="title">Done</h3>
+                <div class="dropzone">
+                    <div class="item" draggable="true">
+                        <div class="status"></div>
+                        <div class="text">Projeto MyTodo</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,143 @@
+html {
+    font-family: 'Dosis';
+    font-weight: 400;
+}
+
+body {
+    background-color: #e4e4e4;
+    padding: 30px 0;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-width: 600px;
+    padding: 0 150px;
+}
+
+.navbar .brand {
+    display: flex;
+}
+
+.navbar .brand .my-todo {
+    margin-left: 10px;
+}
+
+.navbar input {
+    border: 0;
+    padding: 15px 20px;
+    border-radius: 10px;
+    transition: 400ms;
+}
+
+.navbar input:focus {
+    background-color: rgb(247, 247, 247);
+    outline: none;
+}
+
+.navbar .link-close {
+    margin-left: 10px;
+    text-decoration: none;
+}
+
+.navbar .btn-criar {
+    background-color: #54556d;
+    color: white;
+    transition: 400ms;
+    cursor: pointer;
+}
+
+.navbar .btn-criar:hover {
+    background-color: #404052;
+}
+
+.navbar .btn-add {
+    text-decoration: none;
+    color: white;
+    background-color: rgb(157, 81, 228);
+    padding: 15px;
+    border-radius: 10px;
+    font-weight: 500;
+    transition: 400ms;
+}
+
+.navbar .btn-add:hover {
+    background-color: rgb(129, 66, 187);
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.cards .card {
+    background-color: white;
+    margin: 0px 15px;
+    padding: 20px;
+    border-radius: 14px;
+    box-shadow: 1px 1px 4px 4px #ccc;
+    min-width: 250px;
+    min-height: 300px;
+    max-height: 400px;
+}
+
+.card .dropzone {
+    min-width: 250px;
+    min-height: 300px;
+    max-height: 300px;
+    overflow: auto;
+}
+
+.dropzone::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+}
+
+.dropzone::-webkit-scrollbar-track {
+    background: rgb(235, 235, 235);
+    border-radius: 14px;
+}
+
+.dropzone::-webkit-scrollbar-thumb {
+    background: #c2c2c2;
+    border-radius: 14px;
+}
+
+.card .title {
+    color: rgb(129, 66, 187);
+    margin-top: 0;
+}
+
+.cards .card .item {
+    background-color: rgb(247, 247, 247);
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    margin-right: 5px;
+}
+
+.cards .card .item .status {
+    width: 30px;
+    height: 7px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+    background-color: rgb(129, 66, 187);
+}
+
+.drag-on {
+    background: rgba(255, 255, 255, 0.555) !important;
+    box-shadow: 0 0 0 0 !important;
+}
+
+.over {
+    background-color: rgba(128, 66, 187, 0.404);
+}
+
+
+/*Utilidades*/
+
+.hidden {
+    visibility: hidden;
+}
