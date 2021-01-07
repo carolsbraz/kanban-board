@@ -37,6 +37,7 @@ function criarCard() {
 }
 
 // drag and drop
+
 const cards = document.querySelectorAll('.card')
 const itens = document.querySelectorAll('.item')
 const dropzones = document.querySelectorAll('.dropzone')
