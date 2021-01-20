@@ -1,18 +1,16 @@
 
-<h3 align="center">
+<h2 align="center">
  <img src="https://github.com/carolsbraz/simple-kanban-board/blob/main/my-todo/img/to-do.png" alt="logo" height="100px">
-</h3>
+</h2>
 <p align="center">
+Ver demonstração: 
+ <a href="#">MyTodo<a> <br><br>
  <img src="https://forthebadge.com/images/badges/uses-html.svg" alt="" height="35px">
  <img src="https://forthebadge.com/images/badges/uses-css.svg" alt="" height="35px">
  <img src="https://forthebadge.com/images/badges/uses-js.svg" alt="" height="35px">
 <p>
  
-<h2 align="center">
- My Todo
-</h2>
 <p align="center">
- <a href="#">Demo<a> <br><br>
  <img src="https://github.com/carolsbraz/simple-kanban-board/blob/main/my-todo/img/mytodo-record.gif" alt="record" width="80%">
 <p>
 Projeto desenvolvido usando a API de Drag and Drop do HTML. 
