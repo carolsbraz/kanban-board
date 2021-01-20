@@ -18,6 +18,7 @@ Um pequeno kanban com três quadros (to do, doing and done), para organização 
 
  1. `rocketseat-version` - desenvolvido acompanhando a Masterclass #16 da RocketSeat (YouTube);
  2. `my-todo` - versão pessoal desenvolvida para fixar os conhecimentos adquiridos na aula.
+ <br>
 <p align="center">
  <img src="https://forthebadge.com/images/badges/built-with-love.svg" alt="" height="40px">
 <p>
